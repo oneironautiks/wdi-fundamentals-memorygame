@@ -50,6 +50,10 @@ a {
 	margin-left: 20px;
 	margin-right: 20px;
 	color: #FFFFFF;
+	border-bottom: 2px solid transparent;
+}
+a:hover {
+border-bottom: 2px solid white;
 }
 main {
 	width: 850px;
@@ -75,4 +79,16 @@ footer {
 .message {
 	font-family: Raleway;
 	float: right;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+.name {
+	color: #f15b31;
+	font-weight: 700;
 }
